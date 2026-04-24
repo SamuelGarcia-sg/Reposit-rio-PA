@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN2NiXAJML2vPEpqFJ4Gqp9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SamuelGarcia-sg/Reposit-rio-PA/blob/main/ativiadade%20PA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Conversão de graus celsius para fahrenheit"
+      ],
+      "metadata": {
+        "id": "LCOiIQPQjAnz"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QWeRDHKctEWF",
+        "outputId": "9f31ea98-3514-4bfe-b6da-99a7ac427ce2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a temperatura em Celsius: 30\n",
+            "30.0°C equivale a 86.0°F\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Programa que converte graus celsius para fahrenheit\n",
+        "celsius = float(input(\"Digite a temperatura em Celsius: \"))\n",
+        "fahrenheit = (celsius * 1.8) + 32\n",
+        "\n",
+        "print(f\"{celsius}°C equivale a {fahrenheit}°F\")"
+      ]
+    }
+  ]
+}
